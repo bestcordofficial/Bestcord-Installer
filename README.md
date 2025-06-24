@@ -2,6 +2,8 @@
 
 L'installateur Bestcord vous permet d'installer [Bestcord, le mod Discord Desktop le plus mignon mais en mieux](https://github.com/bestcordofficial/Bestcord)
 
+> ✨ **Build automatique** : Chaque push déclenche automatiquement la création de binaires cross-platform !
+
 ![image](https://i.imgur.com/oHN41ss.png)
 
 ## Usage
