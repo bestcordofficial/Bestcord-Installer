@@ -1,6 +1,6 @@
-$link = "https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli.exe"
+$link = "https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstallerCli.exe"
 
-$outfile = "$env:TEMP\EquilotlCli.exe"
+$outfile = "$env:TEMP\BestcordInstallerCli.exe"
 
 Write-Output "Downloading installer to $outfile"
 

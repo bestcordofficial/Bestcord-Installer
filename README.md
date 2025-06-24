@@ -1,21 +1,21 @@
-# Equilotl
+# Bestcord Installer
 
-The Equicord Installer allows you to install [Equicord, the cutest Discord Desktop client mod](https://github.com/Equicord/Equicord)
+L'installateur Bestcord vous permet d'installer [Bestcord, le mod Discord Desktop le plus mignon mais en mieux](https://github.com/bestcordofficial/Bestcord)
 
 ![image](https://i.imgur.com/oHN41ss.png)
 
 ## Usage
 
 Windows
-- [GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.exe) 
-- [CLI](https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli.exe)
+- [GUI](https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstaller.exe) 
+- [CLI](https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstallerCli.exe)
 
 MacOS
-- [GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl.MacOS.zip)
+- [GUI](https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstaller.MacOS.zip)
 
 Linux 
-- [GUI](https://github.com/Equicord/Equilotl/releases/latest/download/Equilotl-x11)
-- [CLI](https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli-Linux)
+- [GUI](https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstaller-x11)
+- [CLI](https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstallerCli-Linux)
 ## Building from source
 
 ### Prerequisites 

@@ -13,7 +13,7 @@ echo "Downloading Installer..."
 
 set -- "XDG_CONFIG_HOME=$XDG_CONFIG_HOME"
 
-curl -sS https://github.com/Equicord/Equilotl/releases/latest/download/EquilotlCli-Linux \
+curl -sS https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/BestcordInstallerCli-Linux \
   --output "$outfile" \
   --location \
   --fail

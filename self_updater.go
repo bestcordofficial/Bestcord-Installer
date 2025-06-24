@@ -21,6 +21,8 @@ import (
 var IsSelfOutdated = false
 var SelfUpdateCheckDoneChan = make(chan bool, 1)
 
+const BaseUrl = "https://github.com/bestcordofficial/Bestcord-Installer/releases/latest/download/"
+
 func init() {
 	//goland:noinspection GoBoolExpressions
 	if buildinfo.InstallerTag == buildinfo.VersionUnknown {
@@ -46,15 +48,14 @@ func init() {
 }
 
 func GetInstallerDownloadLink() string {
-	const BaseUrl = "https://github.com/Equicord/Equilotl/releases/latest/download/"
 	switch runtime.GOOS {
 	case "windows":
-		filename := Ternary(buildinfo.UiType == buildinfo.UiTypeCli, "EquilotlCli.exe", "Equilotl.exe")
+		filename := Ternary(buildinfo.UiType == buildinfo.UiTypeCli, "BestcordInstallerCli.exe", "BestcordInstaller.exe")
 		return BaseUrl + filename
 	case "darwin":
-		return BaseUrl + "Equilotl.MacOS.zip"
+		return BaseUrl + "BestcordInstaller.MacOS.zip"
 	case "linux":
-		return BaseUrl + "EquilotlCli-linux"
+		return BaseUrl + "BestcordInstallerCli-linux"
 	default:
 		return ""
 	}
@@ -90,7 +91,7 @@ func UpdateSelf() error {
 	}
 	defer res.Body.Close()
 
-	tmp, err := os.CreateTemp(ownExeDir, "EquilotlUpdate")
+	tmp, err := os.CreateTemp(ownExeDir, "BestcordInstallerUpdate")
 	if err != nil {
 		return fmt.Errorf("Failed to create tempfile: %w", err)
 	}
